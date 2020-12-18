@@ -1,0 +1,10 @@
+html {
+  background: url("../../assets/sw-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+}
