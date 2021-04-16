@@ -11,9 +11,15 @@
       <button v-on:click="CheckPassword">Ok</button>
     </div>
     <div class="app" v-if="allow_access">
-      <div class="rounds">
-        <button v-on:click="NextRound">Next</button>
-        <p> Série : {{current_round}}/10</p>
+      <div class="informations">
+        <div class="rounds">
+          <p> Série : {{current_round}}/10</p>
+          <button v-on:click="NextRound">Next</button>
+        </div>
+        <div class="question-buttons">
+          <button v-on:click="PrevQuestion">Previous</button>
+          <button v-on:click="NextQuestion">Next</button>
+        </div>
       </div>
       <div class="question">
         <p> {{round[current_round][current_display].question}}</p>
@@ -86,6 +92,12 @@ export default {
         this.allow_access = true;
       }
     },
+    PrevQuestion : function () {
+      if (this.current_display > 0) {
+        this.current_display = this.current_display - 1;
+        this.wait_for_result = true;
+      }
+    },
     NextQuestion : function () {
       if (this.current_display < 10 && this.wait_for_result == false) {
         this.current_display = this.current_display + 1;
@@ -148,7 +160,21 @@ export default {
 
     .rounds {
       color: #E9A18A;
-      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .rounds button {
+      max-height: 20px;
+    }
+
+    .question-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .question {
