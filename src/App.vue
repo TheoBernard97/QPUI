@@ -93,7 +93,7 @@ export default {
       }
     },
     PrevQuestion : function () {
-      if (this.current_display > 0) {
+      if (this.current_display > 1) {
         this.current_display = this.current_display - 1;
         this.wait_for_result = true;
       }
