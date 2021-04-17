@@ -462,7 +462,7 @@ const rounds = {
           },
         },
         6: {
-          question: "6 - Quel leader skill ne fait pas partie de la team BJ5",
+          question: "6 - Quel leader skill ne fait pas partie de la team BJ5 ?",
           answers: {
             1: {
               answer: "Atk global",
@@ -756,7 +756,7 @@ const rounds = {
           },
         },
         2: {
-          question: "2 - Quelles subs-stats ne sont pas disponible en slot 1 ?",
+          question: "2 - Quelles subs-stats ne sont pas disponibles en slot 1 ?",
           answers: {
             1: {
               answer: "Atk flat, Def flat, Def%",
@@ -882,7 +882,7 @@ const rounds = {
           },
         },
         9: {
-          question: "9 - Combien de médailles de ligue est ce que j'obtient en fin de saison si je suis 2158e ? ",
+          question: "9 - Combien de médailles de ligue est ce que j'obtiens en fin de saison si je suis 2158e ? ",
           answers: {
             1: {
               answer: "1400",
@@ -1470,7 +1470,7 @@ const rounds = {
       /* ------------------------------------------------------------------*/
       9: {
         1: {
-          question: "1 - Quel est le nom du 3eme monde des dimension",
+          question: "1 - Quel est le nom du 3eme monde des dimensions ?",
           answers: {
             1: {
               answer: "Khalderun",
@@ -1480,15 +1480,15 @@ const rounds = {
             },
             3: {
               answer: "Ellunia",
-              isCorrect: true,
             },
             4: {
               answer: "Lumel",
+              isCorrect: true,
             },
           },
         },
         2: {
-          question: "2 - Parmis les streameurs cités lequel a fini légende arene ?",
+          question: "2 - Parmis les streameurs cités lequel a fini légende arene ? ",
           answers: {
             1: {
               answer: "Sheisou",
@@ -1506,7 +1506,7 @@ const rounds = {
           },
         },
         3: {
-          question: "3 - Pour quelle association ai je organisé des marathon ?",
+          question: "3 - Pour quelle association ai-je organisé des marathons ?",
           answers: {
             1: {
               answer: "Insitut Pasteur",
@@ -1542,20 +1542,20 @@ const rounds = {
           },
         },
         5: {
-          question: "5 - Si j'optimise mon temps, combien d'ailes d'arènes est ce que je peux faire par jour au maximum ?",
+          question: "5 - Combien de temps met une aile d'arène à se regénerer ? ",
           answers: {
             1: {
-              answer: "24",
+              answer: "24 min",
             },
             2: {
-              answer: "36",
+              answer: "28 min",
             },
             3: {
-              answer: "48",
+              answer: "30 min",
               isCorrect: true,
             },
             4: {
-              answer: "12",
+              answer: "34 min",
             },
           },
         },
