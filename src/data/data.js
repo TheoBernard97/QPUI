@@ -42,7 +42,7 @@ const rounds = {
           },
         },
         3: {
-          question: "3 - Parmis ces monstres, lequel a ete le HOH de ce mois ci ?",
+          question: "3 - Parmis ces monstres, lequel a été le HOH de ce mois ci ?",
           answers: {
             1: {
               answer: "Akia",
@@ -132,7 +132,7 @@ const rounds = {
           },
         },
         8: {
-          question: "8 - Comment s'appel l'Onimusha Ténèbre ? ",
+          question: "8 - Comment s'appelle l'Onimusha Ténèbre ? ",
           answers: {
             1: {
               answer: "Aongyouki",
@@ -279,7 +279,7 @@ const rounds = {
           },
         },
         6: {
-          question: "6 - Lorsque Janssen revive deux alliés, de combien sera le boost atb à toute l'équipe ?",
+          question: "6 - Lorsque Janssen réanime deux alliés, de combien sera le boost atb à toute l'équipe ?",
           answers: {
             1: {
               answer: "60%",
@@ -372,7 +372,7 @@ const rounds = {
       /* ------------------------------------------------------------------*/
       3: {
         1: {
-          question: "1 - Quel monstre possède la base speed la plus élevée du jeu ?",
+          question: "1 - Quel monstre possède la vitesse de base la plus élevée du jeu ?",
           answers: {
             1: {
               answer: "Ragdoll",
@@ -408,7 +408,7 @@ const rounds = {
           },
         },
         3: {
-          question: "3 - Sans avoir monter de batiment d'arène, Combien de temps met une unité d'énergie à se régénerer ?",
+          question: "3 - Sans avoir monté de batiment d'arène, combien de temps met une unité d'énergie à se régénerer ?",
           answers: {
             1: {
               answer: "1 min",
@@ -444,7 +444,7 @@ const rounds = {
           },
         },
         5: {
-          question: "5 - Lors de sa première OP Raid Shadow Legend, a qui Junpei compare t-il un monstre pour se moquer ? ",
+          question: "5 - Lors de sa première OP Raid Shadow Legend, à qui Junpei compare t-il un monstre pour se moquer ?",
           answers: {
             1: {
               answer: "Sheisou",
@@ -516,7 +516,7 @@ const rounds = {
           },
         },
         9: {
-          question: "9 - Combien de ballons sont accrochés sur le dirigeable des 7 ans ? ",
+          question: "9 - Combien de ballons sont accrochés sur le dirigeable des 7 ans ?",
           answers: {
             1: {
               answer: "9",
@@ -534,7 +534,7 @@ const rounds = {
           },
         },
         10: {
-          question: "10 - Combien y'a t-il de trophées dans la partie 'Scénario' dans le jeu ? ",
+          question: "10 - Combien y'a t-il de trophées dans la partie 'Scénario' du jeu ?",
           answers: {
             1: {
               answer: "73",
@@ -573,7 +573,7 @@ const rounds = {
           },
         },
         2: {
-          question: "2 - Quel application vous permet de profiter de cashback sur vos achats in-app ?",
+          question: "2 - Quelle application vous permet de profiter de cashback sur vos achats in-app ?",
           answers: {
             1: {
               answer: "AppGallery de Samsung",
@@ -591,7 +591,7 @@ const rounds = {
           },
         },
         3: {
-          question: "3 - Quel Monstre a été selectionné comme skin Guardien RTA pour cette saison ?",
+          question: "3 - Quel monstre a été selectionné comme skin Guardien RTA pour cette saison ?",
           answers: {
             1: {
               answer: "Oracles",
@@ -609,7 +609,7 @@ const rounds = {
           },
         },
         4: {
-          question: "4 - Combien de runes antiques sont présentées au joueur après le prédateurs des dimensions ? ",
+          question: "4 - Combien de runes antiques sont présentées au joueur après le prédateur des dimensions ? ",
           answers: {
             1: {
               answer: "4",
@@ -627,7 +627,7 @@ const rounds = {
           },
         },
         5: {
-          question: "5 - Quelle est la speed de base de Leo ? ",
+          question: "5 - Quelle est la vitesse de base de Leo ? ",
           answers: {
             1: {
               answer: "103",
@@ -645,7 +645,7 @@ const rounds = {
           },
         },
         6: {
-          question: "6 - Combien de cristaux obtient-on en étant légende au world boss ?",
+          question: "6 - Combien de cristaux obtient-on en étant légende au boss des mondes ?",
           answers: {
             1: {
               answer: "300",
@@ -663,7 +663,7 @@ const rounds = {
           },
         },
         7: {
-          question: "7 - Combien de serveurs existe-t-il sur SW ? ",
+          question: "7 - Combien de serveurs existe-t-il sur Summoners War ? ",
           answers: {
             1: {
               answer: "5",
@@ -774,7 +774,7 @@ const rounds = {
           },
         },
         3: {
-          question: "3 - Combien de vélin d'attribut choisis t-on dans un pack à 1350 cristaux ?",
+          question: "3 - Combien de vélin(s) choisis t-on dans un pack à 1350 cristaux ?",
           answers: {
             1: {
               answer: "0",
@@ -792,7 +792,7 @@ const rounds = {
           },
         },
         4: {
-          question: "4 - Combien de monstres possèdent un passif avec une ressurection après la mort sans conditions ?",
+          question: "4 - Combien de monstres possèdent un passif avec une ressurection après la mort sans condition ?",
           answers: {
             1: {
               answer: "11",
@@ -828,7 +828,7 @@ const rounds = {
           },
         },
         6: {
-          question: "6 - En fin de saison, Combien de rang(s) n'ont que des médailles de gloire en récompense RTA ? ",
+          question: "6 - En fin de saison, combien de rang(s) n'ont que des médailles de gloire en récompense RTA ?",
           answers: {
             1: {
               answer: "1",
@@ -859,12 +859,12 @@ const rounds = {
               answer: "Faune Juck",
             },
             4: {
-              answer: "cuck Jaune",
+              answer: "Cuck Jaune",
             },
           },
         },
         8: {
-          question: "8 - Si vous possédez toutes les iles du jeu, combien y'a t-il de cascades au total ? ",
+          question: "8 - Si vous possédez toutes les iles du jeu, combien y'a t-il de cascades au total ?",
           answers: {
             1: {
               answer: "5",
@@ -882,7 +882,7 @@ const rounds = {
           },
         },
         9: {
-          question: "9 - Combien de médailles de ligue est ce que j'obtiens en fin de saison si je suis 2158e ? ",
+          question: "9 - Combien de médailles de ligue obtient-on en fin de saison en terminant 2158e ? ",
           answers: {
             1: {
               answer: "1400",
@@ -900,7 +900,7 @@ const rounds = {
           },
         },
         10: {
-          question: "10 - Combien existe-t-il d'emotes RTA actuellement ?",
+          question: "10 - Combien existe-t-il d'émotes en RTA actuellement ?",
           answers: {
             1: {
               answer: "16",
@@ -1761,7 +1761,7 @@ const rounds = {
           },
         },
         7: {
-          question: "7 - Contre qui Junpei A-t-il fait un duel a l'épée lors du Zevent 2020 ?",
+          question: "7 - Contre qui Junpei a-t-il fait un duel à l'épée lors du Zevent 2020 ?",
           answers: {
             1: {
               answer: "Zerator",
