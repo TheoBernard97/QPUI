@@ -792,20 +792,20 @@ const rounds = {
           },
         },
         4: {
-          question: "4 - Combien de monstres possèdent un passif avec une ressurection après la mort sans condition ?",
+          question: "4 - Quelle est la bonne expression :",
           answers: {
             1: {
-              answer: "11",
-            },
-            2: {
-              answer: "7",
-            },
-            3: {
-              answer: "9",
+              answer: "Fuck Jaune",
               isCorrect: true,
             },
+            2: {
+              answer: "Juck Faune",
+            },
+            3: {
+              answer: "Faune Juck",
+            },
             4: {
-              answer: "13",
+              answer: "Cuck Jaune",
             },
           },
         },
@@ -846,20 +846,20 @@ const rounds = {
           },
         },
         7: {
-          question: "7 - Quelle est la bonne expression :",
+          question: "7 - Combien de monstres possèdent un passif avec une ressurection après la mort sans condition ?",
           answers: {
             1: {
-              answer: "Fuck Jaune",
-              isCorrect: true,
+              answer: "11",
             },
             2: {
-              answer: "Juck Faune",
+              answer: "7",
             },
             3: {
-              answer: "Faune Juck",
+              answer: "9",
+              isCorrect: true,
             },
             4: {
-              answer: "Cuck Jaune",
+              answer: "13",
             },
           },
         },
