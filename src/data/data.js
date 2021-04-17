@@ -1176,7 +1176,7 @@ const rounds = {
           },
         },
         5: {
-          question: "5 - Combien de points de gloire cout un Vélin inconnu ?",
+          question: "5 - Combien de points de gloire coute un Vélin inconnu ?",
           answers: {
             1: {
               answer: "15",
@@ -1230,7 +1230,7 @@ const rounds = {
           },
         },
         8: {
-          question: "8 - Quel couleur est inscrite sur la cuisse gauche de Clara (Pierrette feu) ? ",
+          question: "8 - Quelle couleur est inscrite sur la cuisse gauche de Clara (Pierrette feu) ? ",
           answers: {
             1: {
               answer: "Coeur",
