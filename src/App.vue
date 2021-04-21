@@ -1,28 +1,19 @@
 <template>
   <div class="container">
-    <!-- 
-    <div class="logo">
-      <img src="./assets/sw-logo.png" alt="SW-logo">
-    </div>
-    -->
     <div class="login" v-if="!allow_access">
       <p>Password: </p>
       <input type="password" v-model="password" name="password">
       <button v-on:click="CheckPassword">Ok</button>
     </div>
     <div class="app" v-if="allow_access">
-      <div class="informations">
-        <div class="rounds">
-          <p> Série : {{current_round}}/10</p>
-          <button v-on:click="NextRound">Next</button>
-        </div>
-        <div class="question-buttons">
-          <button v-on:click="PrevQuestion">Previous</button>
-          <button v-on:click="NextQuestion">Next</button>
-        </div>
+      <div class="rounds">
+        <p> Série : {{current_round}}/10</p>
+        <button v-on:click="NextRound">Next</button>
       </div>
       <div class="question">
+        <img src="./assets/arrow.svg" alt="" class="left-arrow" v-on:click="PrevQuestion">
         <p> {{round[current_round][current_display].question}}</p>
+        <img src="./assets/arrow.svg" alt="" class="right-arrow" v-on:click="NextQuestion">
       </div>
       <div class="answers">
         <div class="answer" v-on:click="GetResponse(); Click1();"
@@ -130,17 +121,7 @@ export default {
 };
 </script>
 
-<style scoped>    
-
-    .logo {
-      margin-top: 150px;
-      text-align: center;
-    }
-
-    img {
-      max-width: 500px;
-    }
-
+<style scoped>
     .app {  
       position: fixed; 
       bottom: 25px;
@@ -166,22 +147,27 @@ export default {
       align-items: center;
     }
 
-    .rounds button {
-      max-height: 20px;
-    }
-
-    .question-buttons {
+    .question {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-    }
-
-    .question {
       border: 2px solid #E9A18A;
       text-align: center;
       color: #E9A18A;
       background-color: #31304A;
+    }
+
+    .question img {
+      cursor: pointer;
+      color: #E9A18A;
+      width: 1rem;
+      height: 1rem;
+      padding: 2rem;
+    }
+
+    .left-arrow {
+      transform: rotate(180deg);
     }
 
     .answers {
