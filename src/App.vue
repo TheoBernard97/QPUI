@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     CheckPassword () {
-      if (this.password === "afterparty") {
+      if (this.password === "JJrouette") {
         this.allow_access = true;
       }
     },
@@ -136,11 +136,11 @@ export default {
     }
 
     .login p {
-      color: #E9A18A;
+      color: whitesmoke;
     }
 
     .rounds {
-      color: #E9A18A;
+      color: whitesmoke;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -152,15 +152,15 @@ export default {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      border: 2px solid #E9A18A;
+      border: 2px solid whitesmoke;
       text-align: center;
-      color: #E9A18A;
-      background-color: #31304A;
+      color: whitesmoke;
+      background-color: #111111;
     }
 
     .question img {
       cursor: pointer;
-      color: #E9A18A;
+      color: whitesmoke;
       width: 1rem;
       height: 1rem;
       padding: 2rem;
@@ -182,9 +182,9 @@ export default {
       display: flex;
       align-items: center;
       text-align: left;
-      border: 2px solid #E9A18A;
-      color: #E9A18A;
-      background-color: #31304A;
+      border: 2px solid whitesmoke;
+      color: whitesmoke;
+      background-color: #111111;
     }
 
     .waitresult:hover {
